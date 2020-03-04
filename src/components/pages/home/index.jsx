@@ -11,15 +11,8 @@ class Home extends Component{
 
         return(
             <div className="homeContainer">
-
                 <div className="home-wrapper">
-                    <div className="home-logo">
-                        {/* <img src={logo} alt=""/> */}
-                    </div>
-                    
-                    <div className="home-text">
-                        {/* <span>{this.props.t("home.1")}</span> */}
-                    </div>
+                   Home
                 </div>
             </div>
         )

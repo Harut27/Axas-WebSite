@@ -1,0 +1,18 @@
+@import "../../../global.scss";
+
+.sitebar-manu{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 200px;
+    .sitebar-link{
+        margin-top: 20px;
+
+        a{
+            color: #333;
+            text-decoration: none;
+        }
+
+    }
+}
