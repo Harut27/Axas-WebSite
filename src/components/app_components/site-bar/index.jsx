@@ -13,25 +13,22 @@ class SiteBar extends Component{
         <div>
             <div className="sitebar-manu">
                 <div className="sitebar-link">
-                    <Link to="/catalog/aksesuar">{this.props.t("sitebar.1")}</Link>
+                    <Link to="/home/nnjasenyak">{this.props.t("sitebar.1")}</Link>
                 </div>
                 <div className="sitebar-link">
-                    <Link to="/catalog/collection">{this.props.t("sitebar.2")}</Link>
+                    <Link to="/home/xohanoc">{this.props.t("sitebar.2")}</Link>
                 </div>
                 <div className="sitebar-link">
-                    <Link to="/catalog/dramapanakner">{this.props.t("sitebar.3")}</Link>
+                    <Link to="/home/chashasenyak">{this.props.t("sitebar.3")}</Link>
                 </div>
                 <div className="sitebar-link">
-                    <Link to="/catalog/gotiner">{this.props.t("sitebar.4")}</Link>
+                    <Link to="/home/mankakan">{this.props.t("sitebar.4")}</Link>
                 </div>
                 <div className="sitebar-link">
-                    <Link to="/catalog/koshikner">{this.props.t("sitebar.5")}</Link>
+                    <Link to="/home/officain">{this.props.t("sitebar.5")}</Link>
                 </div>
                 <div className="sitebar-link">
-                    <Link to="/catalog/payusakner">{this.props.t("sitebar.6")}</Link>
-                </div>
-                <div className="sitebar-link">
-                    <Link to="/catalog/sharfer">{this.props.t("sitebar.7")}</Link>
+                    <Link to="/home/naxasrah">{this.props.t("sitebar.6")}</Link>
                 </div>
             </div>
         </div>

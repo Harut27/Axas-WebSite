@@ -2,54 +2,15 @@
 
 .aboutContainer{
 
-    background: #d9e8c72b;
+    background: #dedddb;
+    height: calc(100vh - 62px);
     
 
     .contant-section{
 
-        display: flex;
-        flex-direction: column;
-        width: 980px;
-        margin: 0 auto;
-        padding-top: $padding-top;
+        
+    }
 
-        .about-title{
-            margin: 40px;
-            font-size: 38px;
-            color: #5f743a;
-            display: flex;
-            align-self: center;
-        }
-
-        .about-text{
-            background: #d9e8c72b;
-            font-size: 20px;
-            padding: 20px;
-        }
-
-        .about-img{
-            width: 980px;
-            display: flex;
-            align-self: center;
-
-
-            .about4{
-                width: 537px;
-
-                img{
-                    width: 100%;
-                }
-            }
-
-            .about1{
-                width: 440px;
-
-                img{
-                    width: 100%;
-                }
-            }
-        }
-}
 }
 
 .margin{

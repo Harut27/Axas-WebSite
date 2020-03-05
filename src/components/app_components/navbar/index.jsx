@@ -44,10 +44,7 @@ const Navbar = () => {
                     <Link onClick={onLinkClick} to={`/services`}>{t('navbar.3')}</Link>
                 </li>
                 <li className="navbar-link">
-                    <Link to={`/catalog/aksesuar`}>{t('navbar.4')} </Link>
-                </li>
-                <li className="navbar-link">
-                    <Link onClick={onLinkClick} to={`/testimonials`}>{t('navbar.5')}</Link>
+                    <Link onClick={onLinkClick} to={`/contactus`}>{t('navbar.5')}</Link>
                 </li>
             </ul>
         </div>

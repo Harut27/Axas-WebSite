@@ -14,17 +14,18 @@ class CatalogLayout extends Component {
 
         <Navbar />
         <MainImagae/>
-        <div className="Sitebar-Layout">
-          <SiteBar/>
-
-          <div className="content">
-            
-            <Route
-              {...rest}
-              render={matchProps => {
-                return <ChildComponent {...matchProps} />;
-              }}
-            />
+        <div className="home-container">
+          <div className="home-wrapper">
+            <SiteBar/>
+            <div className="content">
+              
+              <Route
+                {...rest}
+                render={matchProps => {
+                  return <ChildComponent {...matchProps} />;
+                }}
+              />
+            </div>
           </div>
         </div>
       </>

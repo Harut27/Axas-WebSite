@@ -4,42 +4,40 @@ import { Switch } from "react-router";
 
 import GuestLayout from "./guest-layout";
 import SitebarLayout from "./sitebar-layout"
-import Home from "../components/pages/home";
 import AboutUs from "../components/pages/aboutUs";
 import ContactUs from "../components/pages/contactUs";
 import Services from "../components/pages/services";
 
-// import Aksesuar from "../components/pages/catalog/aksesuar";
-// import Collection from "../components/pages/catalog/collection";
-// import Dramapanakner from "../components/pages/catalog/dramapanakner";
-// import Gotiner from "../components/pages/catalog/gotiner";
-// import Koshikner from "../components/pages/catalog/koshikner";
-// import Payusakner from "../components/pages/catalog/payusakner";
-// import Sharfer from "../components/pages/catalog/sharfer";
-// import TnainDekorner from "../components/pages/catalog/tnayin-dekorner";
+import Nnjasenyak from "../components/pages/home/nnjasenyak";
+import Xohanoc from "../components/pages/home/xohanoc";
+import Chashasenyak from "../components/pages/home/chashasenyak";
+import Mankakan from "../components/pages/home/mankakan";
+import Officain from "../components/pages/home/officain";
+import Naxasrah from "../components/pages/home/naxasrah";
+
+
 
 
 const Routes = () => {
   return (
     <Router>
       <Switch>
-        {/* <GuestLayout exact path="/" component={Home} />;
-        <GuestLayout exact path="/home" component={Home} />; */}
         <GuestLayout exact path="/aboutus" component={AboutUs} />;
         <GuestLayout exact path="/contactus" component={ContactUs} />;
         <GuestLayout exact path="/services" component={Services} />;
 
-        <SitebarLayout exact path="/home" component={Home} />;
-        <SitebarLayout exact path="/" component={Home} />;
-        {/* <SitebarLayout exact path="/home/collection" component={Collection} />;
-        <SitebarLayout exact path="/home/dramapanakner" component={Dramapanakner} />;
-        <SitebarLayout exact path="/home/gotiner" component={Gotiner} />;
-        <SitebarLayout exact path="/home/koshikner" component={Koshikner} />;
-        <SitebarLayout exact path="/home/payusakner" component={Payusakner} />;
-        <SitebarLayout exact path="/home/sharfer" component={Sharfer} />;
-        <SitebarLayout exact path="/home/tnainDekorner" component={TnainDekorner} />; */}
+        <SitebarLayout exact path="/" component={Nnjasenyak} />;
+        <SitebarLayout exact path="/home" component={Nnjasenyak} />;
+        <SitebarLayout exact path="/home/nnjasenyak" component={Nnjasenyak} />;
+        <SitebarLayout exact path="/home/xohanoc" component={Xohanoc} />;
+        <SitebarLayout exact path="/home/chashasenyak" component={Chashasenyak} />;
+        <SitebarLayout exact path="/home/mankakan" component={Mankakan} />;
+        <SitebarLayout exact path="/home/officain" component={Officain} />;
+        <SitebarLayout exact path="/home/naxasrah" component={Naxasrah} />;
 
-       
+
+
+        
       </Switch>
     </Router>
   );

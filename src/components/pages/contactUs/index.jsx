@@ -13,6 +13,8 @@ class ContactUs extends Component{
     render(){
         return(
             <div className="contactContainer">
+
+                contactus
                 {/* <div className="picture-section">
                     <img src={Contactimage1} alt=""/>
                 </div>

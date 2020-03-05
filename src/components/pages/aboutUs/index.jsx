@@ -9,14 +9,7 @@ class AboutUs extends Component{
         return(
             <div className="aboutContainer">
                 <div className="contant-section">
-                    <div className="about-img">
-                        <div className="about4">
-
-                        </div>
-                        <div className="about1">
-                            {/* <OpenPhoto src={about1} /> */}
-                        </div>
-                    </div>
+                AboutUs
                 </div>
             </div>
         )
