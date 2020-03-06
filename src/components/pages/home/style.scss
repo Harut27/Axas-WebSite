@@ -4,9 +4,17 @@
     padding-left:50px;
     
     .renderSection{
-        width: 1170px;
+        max-width: 1051px;
+        display: flex;
+        flex-wrap: wrap;
         background: #fff;
         border-radius: 7px;
         min-height: 528px;
+        padding: 30px;
     }
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
 }

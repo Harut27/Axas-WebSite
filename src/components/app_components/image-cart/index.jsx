@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./style.scss";
 
-const ImageCart = (src)=>{
+const ImageCart = ({src})=>{
 
         return(
             <div className="imageCart">
